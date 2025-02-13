@@ -4,6 +4,8 @@ langchain-community
 langchain-core~=0.3.35
 langchain-ollama
 selenium
+uvicorn
+fastapi
 
 pydantic~=2.10.6
 langchain-text-splitters~=0.3.6
