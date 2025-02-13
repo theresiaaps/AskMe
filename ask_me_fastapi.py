@@ -23,7 +23,7 @@ model = OllamaLLM(model="mistral")
 
 
 class QueryRequest(BaseModel):
-    url: str
+    url: str = None
     question: str
 
 
